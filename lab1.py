@@ -13,6 +13,7 @@ except:
 # 		divisible by 3 return "Fizz" and if it is divisible by 5 return "buzz" and if is is
 # 		divisible by both return "FizzBuzz"
 
+
 def checkNumber(num):
     if num % 3 == 0 and num % 5 == 0:
         return "FizzBuzz"
@@ -43,16 +44,21 @@ except:
 
 # 	- Ask the user for his name then confirm that he has entered his name (not an empty string/integers). then proceed to ask him for his email and print all this data
 
-try:
-    name = input("Enter your name: ")
-    if not name.strip() or name.isdigit():
-        print("Invalid name. Please enter a valid name.")
-
+check = False
+while True:
+    if check == False:
+        name = input("Enter your name: ")
+        if not name.isalpha() or name.isdigit():
+            print("Invalid name. Please enter a valid name.")
+            continue
     email = input("Enter your email: ")
+    if email.count("@") == 0:
+        print("Invalid email. Please enter a valid email.")
+        check = True
+        continue
     print("Name: ", name)
     print("Email: ", email)
-except:
-#     print("please enter a valid name")
+    break
 
 # 	- Write a program that prints the number of times the substring 'iti' occurs in a string
 
