@@ -1,0 +1,24 @@
+Number: 1.0
+  Floor: 1
+  Ceil: 1
+  Square Root: 1.0
+  Area of Circle: 3.141592653589793
+
+Number: 2.0
+  Floor: 2
+  Ceil: 2
+  Square Root: 1.4142135623730951
+  Area of Circle: 12.566370614359172
+
+Number: 3.5
+  Floor: 3
+  Ceil: 4
+  Square Root: 1.8708286933869707
+  Area of Circle: 38.48451000647496
+
+Number: 55.0
+  Floor: 55
+  Ceil: 55
+  Square Root: 7.416198487095663
+  Area of Circle: 9503.317777109125
+

@@ -1,0 +1,22 @@
+[
+    {
+        "product": "ff",
+        "price": 1.0,
+        "discounted": 0.9
+    },
+    {
+        "product": "kk",
+        "price": 22.0,
+        "discounted": 19.8
+    },
+    {
+        "product": "kk",
+        "price": 3.0,
+        "discounted": 2.7
+    },
+    {
+        "product": "wee",
+        "price": 55.0,
+        "discounted": 49.5
+    }
+]
